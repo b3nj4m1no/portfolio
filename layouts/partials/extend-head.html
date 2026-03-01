@@ -1,5 +1,5 @@
 {{/* Preload background image to prevent flash on navigation */}}
-{{ with .Site.Params.defaultBackgroundImage }}
+{{ with .Params.defaultBackgroundImage }}
   {{ $bgImage := resources.Get . }}
   {{ if $bgImage }}
     <link rel="preload" as="image" href="{{ $bgImage.RelPermalink }}" fetchpriority="high">
