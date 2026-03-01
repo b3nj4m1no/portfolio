@@ -1,5 +1,5 @@
 ---
-title: "OliCyber.IT Demo Writeups"
+title: "NotCyber.IT Demo Writeups"
 date: 2026-02-28T12:00:00+01:00
 draft: false
 summary: "A collection of writeups for web, misc, crypto, and binary CTF-style challenges."
@@ -7,10 +7,10 @@ tags: ["ctf", "writeup", "security"]
 showTableOfContents: true
 showAuthor: false
 authors:
-  - "matthew-olicyber"
+  - "matthew-notcyber"
 ---
 
-This post collects the challenges I solved during the demo of the territorial selection for the OliCyber.IT program, a 4-hour CTF competition.
+This post collects the challenges I solved during the demo of the territorial selection for the NotCyber.IT program, a 4-hour CTF competition.
 
 ## Web
 

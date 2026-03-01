@@ -43,6 +43,6 @@ I am **Matthew Gasparetti**, and I work in cybersecurity with a practical approa
   </table>
 </div>
 
-I have been an **OliCyber** finalist every year since **2023**, and I participated in **CyberChallenge** in **2023**.
+I have been a **NotCyber** finalist every year since **2023**, and I participated in **CyberChallenge** in **2023**.
 
 If you want to reach me, you can do so through the [contact page](/contact/).
