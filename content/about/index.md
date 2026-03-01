@@ -1,6 +1,6 @@
 ---
-title: "About — Matthew Gasparetti"
-description: "About Matthew Gasparetti — cybersecurity enthusiast, CTF competitor, founder of CodeVinci, and member of HAVCE, Aetruria, and ERRNO."
+title: "About"
+description: ""
 showDate: false
 showReadingTime: false
 showWordCount: false

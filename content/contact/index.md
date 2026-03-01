@@ -1,6 +1,6 @@
 ---
-title: "Contact — Matthew Gasparetti"
-description: "Get in touch with Matthew Gasparetti for cybersecurity inquiries, collaborations, or CTF-related questions."
+title: "Contact Me"
+description: ""
 showDate: false
 showReadingTime: false
 showWordCount: false
