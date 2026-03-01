@@ -1,3 +1,11 @@
+{{/* Preload background image to prevent flash on navigation */}}
+{{ with .Site.Params.defaultBackgroundImage }}
+  {{ $bgImage := resources.Get . }}
+  {{ if $bgImage }}
+    <link rel="preload" as="image" href="{{ $bgImage.RelPermalink }}" fetchpriority="high">
+  {{ end }}
+{{ end }}
+
 {{/* JSON-LD structured data for SEO */}}
 <meta name="google-site-verification" content="bzmBiFICN13Ndm2cGeoGyBRevi_awPyvfKTeuxBaDN0" />
 <script type="application/ld+json">

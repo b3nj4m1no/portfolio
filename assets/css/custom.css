@@ -1,3 +1,14 @@
+/* Smooth background image load — prevent flash between pages */
+img[id$="-background-image"],
+img#background-image {
+  animation: bgFadeIn 0.3s ease-out both;
+}
+
+@keyframes bgFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 .home-main {
   height: calc(100vh - 148px);
 }
