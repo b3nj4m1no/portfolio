@@ -175,6 +175,36 @@
   text-decoration-color: rgba(229, 184, 255, 1);
 }
 
+/* ── Light mode: About ── */
+html:not(.dark) .about-copy p {
+  color: #1e293b;
+}
+
+html:not(.dark) .about-copy .about-teams-table th,
+html:not(.dark) .about-copy .about-teams-table td {
+  border-color: rgba(51, 65, 85, 0.40);
+  color: #1e293b;
+}
+
+html:not(.dark) .about-copy .about-teams-table thead th {
+  color: #0f172a;
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+
+html:not(.dark) .about-copy .about-teams-table tbody tr:hover td {
+  background: rgba(0, 0, 0, 0.06) !important;
+}
+
+html:not(.dark) .about-copy a {
+  color: #6d28d9;
+  text-decoration-color: rgba(109, 40, 217, 0.75);
+}
+
+html:not(.dark) .about-copy a:hover {
+  color: #5b21b6;
+  text-decoration-color: #5b21b6;
+}
+
 .contact-hero {
   padding-top: clamp(1.2rem, 3vh, 2.2rem);
 }
@@ -301,4 +331,48 @@
     width: 100%;
     padding-inline: 0.3rem;
   }
+}
+
+/* ── Light mode: Contact form ── */
+html:not(.dark) .contact-form__label {
+  color: #1e293b;
+}
+
+html:not(.dark) .contact-form__input,
+html:not(.dark) .contact-form__textarea {
+  border-color: rgba(51, 65, 85, 0.35);
+  background: rgba(241, 245, 249, 0.85);
+  color: #0f172a;
+}
+
+html:not(.dark) .contact-form__input::placeholder,
+html:not(.dark) .contact-form__textarea::placeholder {
+  color: rgba(100, 116, 139, 0.7);
+}
+
+html:not(.dark) .contact-form__input:focus,
+html:not(.dark) .contact-form__textarea:focus {
+  border-color: rgba(109, 40, 217, 0.6);
+  background: #fff;
+}
+
+html:not(.dark) .contact-form__btn {
+  background: #1e293b;
+  color: #fff;
+}
+
+html:not(.dark) .contact-form__btn:hover {
+  background: #0f172a;
+}
+
+html:not(.dark) .contact-form__btn:active {
+  background: #334155;
+}
+
+html:not(.dark) .contact-form__status {
+  color: #16a34a;
+}
+
+html:not(.dark) .contact-form__status.error {
+  color: #dc2626;
 }
