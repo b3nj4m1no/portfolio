@@ -1,0 +1,129 @@
+# -- Theme Options --
+
+colorScheme = "benjamin"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableA11y = false
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+
+replyByEmail = false
+
+# Formspree form ID — get yours at https://formspree.io
+formspreeId = "mkovajqo"
+
+mainSections = ["blog"]
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = true
+
+defaultBackgroundImage = "/img/background.svg"
+defaultFeaturedImage = "/img/featured.svg"
+hotlinkFeatureImage = false
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+fingerprintAlgorithm = "sha512"
+
+# Buy Me a Coffee — built-in Blowfish widget
+[buymeacoffee]
+  identifier = "benjaminnn"
+  globalWidget = true
+  globalWidgetMessage = ""
+  globalWidgetColor = "#7C3AED"
+  globalWidgetPosition = "Right"
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = false
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "background"
+  showRecent = false
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/blog/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+  disableHeroImageFilter = false
+
+[article]
+  showDate = true
+  showViews = false
+  showLikes = false
+  showDateOnlyInArticle = false
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showTaxonomies = true
+  showAuthorsBadges = false
+  showWordCount = true
+  showZenMode = false
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = true
+  showSummary = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = true
+  orderByWeight = false
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = true
+
+[term]
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false

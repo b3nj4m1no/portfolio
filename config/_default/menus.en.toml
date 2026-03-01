@@ -1,0 +1,29 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
+
+[[footer]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[footer]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 20

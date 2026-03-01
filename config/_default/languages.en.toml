@@ -1,0 +1,22 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Matthew Gasparetti"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2, 2006"
+  logo = ""
+  description = "Personal website of Matthew Gasparetti."
+
+[params.author]
+  name = "Matthew Gasparetti"
+  image = "img/profile.png"
+  headline = "into cybersec"
+  bio = "into cybersec"
+  links = [
+    { github = "https://github.com/b3nj4m1no" },
+    { instagram = "https://www.instagram.com/_mqtthew_" },
+  ]
