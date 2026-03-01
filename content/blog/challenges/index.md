@@ -5,6 +5,7 @@ draft: false
 summary: "A collection of writeups for web, misc, crypto, and binary CTF-style challenges."
 tags: ["ctf", "writeup", "security"]
 showTableOfContents: true
+showAuthor: false
 authors:
   - "matthew-olicyber"
 ---
