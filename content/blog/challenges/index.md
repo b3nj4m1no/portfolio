@@ -5,6 +5,8 @@ draft: false
 summary: "A collection of writeups for web, misc, crypto, and binary CTF-style challenges."
 tags: ["ctf", "writeup", "security"]
 showTableOfContents: true
+authors:
+  - "matthew-olicyber"
 ---
 
 This post collects the challenges I solved during the demo of the territorial selection for the OliCyber.IT program, a 4-hour CTF competition. The goal is to document the exploitation path for each solved challenge in clear English, with more focus on the core idea than on reproducing every step of the environment.
