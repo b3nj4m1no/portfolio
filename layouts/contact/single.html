@@ -83,7 +83,7 @@
       src="{{ $backgroundBlur.RelPermalink }}"
       integrity="{{ $backgroundBlur.Data.Integrity }}"
       data-blur-id="contact-background-blur"
-      data-image-id="persistent-bg-image"
+      data-image-id="persistent-bg"
       {{ with resources.Get .Site.Params.defaultBackgroundImage }}data-image-url="{{ .RelPermalink }}"{{ end }}></script>
   {{ end }}
 {{ end }}

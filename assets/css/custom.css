@@ -1,12 +1,48 @@
-/* Smooth background image load — prevent flash between pages */
-img[id$="-background-image"],
-img#background-image {
-  animation: bgFadeIn 0.3s ease-out both;
+/* ── Persistent CSS background — cached across all pages ── */
+#persistent-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@keyframes bgFadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+#persistent-bg::before,
+#persistent-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  height: 1000px;
+}
+
+/* Gradient overlay (dark mode) */
+#persistent-bg::before {
+  background: linear-gradient(to top, rgb(var(--color-neutral)), transparent);
+}
+
+.dark #persistent-bg::before {
+  background: linear-gradient(to top, rgb(var(--color-neutral-800)), transparent);
+}
+
+/* Second gradient overlay */
+#persistent-bg::after {
+  opacity: 0.6;
+  background: linear-gradient(to top, rgb(var(--color-neutral)), rgb(var(--color-neutral-100)));
+}
+
+.dark #persistent-bg::after {
+  background: linear-gradient(to top, rgb(var(--color-neutral-800)), rgb(var(--color-neutral-800)));
+}
+
+/* Hide per-page background images from theme templates */
+#background-image,
+#about-background-image,
+#contact-background-image,
+#background-image + div,
+#background-image + div + div {
+  display: none !important;
 }
 
 .home-main {

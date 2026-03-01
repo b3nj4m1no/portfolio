@@ -11,19 +11,11 @@
   {{ $bodyLayout := "flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32" }}
   {{ $bodyColor := "text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral" }}
   <body class="{{ $bodyLayout }} {{ $bodyColor }} {{ if site.Params.enableStyledScrollbar | default true }}bf-scrollbar{{ end }}">
-    {{/* ── Persistent background — never reloads between pages ── */}}
+    {{/* ── Persistent CSS background — cached, no flash ── */}}
     {{ with site.Params.defaultBackgroundImage }}
       {{ $bgImg := resources.Get . }}
       {{ if $bgImg }}
-        <div id="persistent-bg" class="fixed inset-x-0 top-0 -z-10">
-          <img
-            id="persistent-bg-image"
-            class="nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
-            src="{{ $bgImg.RelPermalink }}"
-            role="presentation">
-          <div class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
-          <div class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-neutral-100 opacity-60 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800"></div>
-        </div>
+        <div id="persistent-bg" style="background-image:url('{{ $bgImg.RelPermalink }}')"></div>
       {{ end }}
     {{ end }}
     <div id="the-top" class="absolute flex self-center">
