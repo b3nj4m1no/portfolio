@@ -1,7 +1,7 @@
 # -- Site Configuration --
 
 theme = "blowfish"
-baseURL = "https://example.org/"
+baseURL = "https://benjamin.codevinci.it/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
@@ -26,6 +26,9 @@ enableEmoji = true
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

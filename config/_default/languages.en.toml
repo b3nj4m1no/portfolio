@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Matthew Gasparetti"
+title = "Matthew Gasparetti — Cybersecurity Portfolio"
 
 [params]
   displayName = "English"
@@ -9,7 +9,7 @@ title = "Matthew Gasparetti"
   rtl = false
   dateFormat = "January 2, 2006"
   logo = ""
-  description = "Personal website of Matthew Gasparetti."
+  description = "Matthew Gasparetti — cybersecurity enthusiast, CTF player, and member of CodeVinci, HAVCE, Aetruria, and ERRNO."
 
 [params.author]
   name = "Matthew Gasparetti"
