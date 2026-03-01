@@ -226,6 +226,13 @@ html:not(.dark) .about-copy a:hover {
   }
 }
 
+/* ToC mobile spacing */
+@media (max-width: 1023px) {
+  .toc-inside {
+    margin-top: 1.2rem;
+  }
+}
+
 /* ═══════════════════════════════════════════
    Contact page + form (Formspree)
    ═══════════════════════════════════════════ */
