@@ -131,8 +131,6 @@ and finally extracted the flag directly:
 SELECT flag FROM flag LIMIT 1
 ```
 
-From a defensive point of view, the fix is straightforward: use prepared statements for both queries and never build a new SQL statement by concatenating data that came either from the user or from a previous query result.
-
 Recovered flag:
 
 ```text
